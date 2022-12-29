@@ -1,0 +1,220 @@
+.logo {
+  height: 100px;
+}
+
+.hero {
+  width: 540px;
+}
+
+.fylo {
+  margin-bottom: 40px;
+}
+.top-btn {
+  margin-top: 30px;
+  color: white;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+}
+.top-btn:hover {
+  background: hsl(176, 68%, 64%);
+  color: white;
+}
+
+// section-2
+section {
+  margin: 10px;
+  font-size: 13px;
+  .quote {
+    margin-top: -38px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: 1;
+  }
+  .komen {
+    margin-top: 60px;
+    position: relative;
+    z-index: 2;
+    .com-1 {
+      background-color: hsl(219, 30%, 18%);
+      padding: 30px;
+      border-radius: 6px;
+      .avatar-1 {
+        display: flex;
+        .avt-1 {
+          img {
+            width: 40px;
+            border-radius: 50%;
+          }
+        }
+        .name {
+          margin-left: 10px;
+        }
+      }
+    }
+    .com-2 {
+      background-color: hsl(219, 30%, 18%);
+      padding: 30px;
+      border-radius: 6px;
+      .avatar-2 {
+        display: flex;
+        .avt-2 {
+          img {
+            width: 40px;
+            border-radius: 50%;
+          }
+        }
+        .name {
+          margin-left: 10px;
+        }
+      }
+    }
+    .com-3 {
+      background-color: hsl(219, 30%, 18%);
+      padding: 30px;
+      border-radius: 6px;
+      .avatar-3 {
+        display: flex;
+        .avt-3 {
+          img {
+            width: 40px;
+            border-radius: 50%;
+          }
+        }
+        .name {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+// last content
+.sign {
+  width: 930px;
+  position: absolute;
+  z-index: 2;
+  background-color: hsl(217, 28%, 15%);
+  padding: 30px 40px;
+  p {
+    padding: 10px 100px;
+  }
+  .email {
+    width: 580px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px;
+  }
+  .tombol {
+    margin-left: 20px;
+    padding: 15px 20px;
+    background: linear-gradient(
+      to right,
+      hsl(176, 68%, 64%),
+      hsl(198, 60%, 50%)
+    );
+    border-radius: 30px;
+    border: none;
+    color: white;
+  }
+}
+
+// footer
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding: 40px 0;
+  margin: 200px 0;
+  .foot-logo {
+    height: 40px;
+  }
+  .location {
+    display: flex;
+    div {
+      margin-right: 20px;
+    }
+  }
+  ul {
+    li {
+      list-style: none;
+      a {
+        color: white;
+      }
+    }
+  }
+  .social ul {
+    display: flex;
+    li {
+      margin-right: 20px;
+      border-radius: 50%;
+      border: 1px solid white;
+      padding: 5px 8px;
+    }
+  }
+}
+
+// tablet
+@media screen and (max-width: 786px) {
+  .sign {
+    padding: 20px;
+    width: 78%;
+    p {
+      padding: 20px;
+    }
+    .email {
+      width: 300px;
+    }
+    .tombol {
+      padding: 15px 80px;
+      margin: 20px 0;
+    }
+  }
+  footer {
+    margin-top: 200px;
+  }
+  .herosection {
+    width: 100%;
+  }
+  .quote {
+    padding-left: 49px;
+  }
+}
+
+// mobile
+@media screen and (max-width: 576px) {
+  .hero {
+    width: 100%;
+  }
+  .herosection {
+    width: 100%;
+  }
+  section {
+    .com-2 {
+      margin: 30px 0;
+    }
+  }
+  .sign {
+    margin-top: 200px;
+    padding: 20px;
+    p {
+      padding: 20px;
+    }
+    width: 90%;
+    margin: 10px;
+    .email {
+      width: 100%;
+    }
+    .tombol {
+      padding: 15px 130px;
+      margin: 20px 0;
+    }
+  }
+  footer {
+    margin-top: 400px;
+    place-items: center;
+    .social {
+      flex-direction: row;
+    }
+  }
+}
