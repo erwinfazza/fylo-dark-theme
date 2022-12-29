@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap");
+
+header {
+  font-family: "Raleway", sans-serif;
+}
 .logo {
   height: 100px;
 }
@@ -28,7 +33,7 @@ section {
   font-size: 13px;
   .quote {
     margin-top: -38px;
-    margin-left: 5px;
+    margin-left: 95px;
     position: absolute;
     z-index: 1;
   }
@@ -55,7 +60,7 @@ section {
     }
     .com-2 {
       background-color: hsl(219, 30%, 18%);
-      padding: 30px;
+      padding: 15px;
       border-radius: 6px;
       .avatar-2 {
         display: flex;
@@ -179,6 +184,12 @@ footer {
   .quote {
     padding-left: 49px;
   }
+  section {
+    .com-2 {
+      margin: 30px 0;
+      padding: 0;
+    }
+  }
 }
 
 // mobile
@@ -189,11 +200,7 @@ footer {
   .herosection {
     width: 100%;
   }
-  section {
-    .com-2 {
-      margin: 30px 0;
-    }
-  }
+
   .sign {
     margin-top: 200px;
     padding: 20px;

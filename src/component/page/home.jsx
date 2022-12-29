@@ -149,8 +149,8 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4  py-sm-3">
-                <div className="com-2 my-sm-3 pt-3">
+              <div className="col-md-4  com-2">
+                <div className="com-2  ">
                   <p>
                     {" "}
                     Fylo has improve our team productivity by an order of
